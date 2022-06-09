@@ -29,7 +29,6 @@ class buch {
     }
 
     verkauft() {
-
         this.verfuegbar -= 1
 
         document.getElementById("verkauft").innerHTML = "Du hast erfolgreich Geld verdient"
